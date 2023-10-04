@@ -1,0 +1,5 @@
+.client-2{
+    transform: scale(1.1);
+    transition:1.5s;
+    box-shadow: 10px 10px #d3d1d1;
+}

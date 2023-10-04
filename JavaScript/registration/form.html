@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Registration
+    </title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+    <h2>Registration Form</h2>
+    <form>
+        <table>
+            <tr>
+                <td> <label for="name">Name:</label></td>
+                <td>
+                    <input type="text" id="username" name="username" >
+                    <div id="usernameError" style="color:red;"></div>
+                </td>
+                </tr>
+            <tr>
+                <td> <label for="mail">Email:</label></td>
+                <td> <input type="email" id="email" name="email">
+                <div id="emailError" style="color:red;"></div>
+            </td>
+            </tr>
+            <tr>
+                <td> <label for="pw">Password:</label></td>
+                <td> <input type="password" id="password" name="password">
+                <div id="passwordError" style="color:red;"></div></td>
+            </tr>
+           
+            <tr>
+                <td> <label for="age">Age:</label></td>
+                <td><input type="text" id="age" name="age"  >
+                <div id="ageError" style="color:red;"></div></td>
+            </tr>
+            <tr>
+                <td> <label for="gender">Gender:</label></td>
+                <td><input type="radio" id="male" name="gender" value="Male" >
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="Female" >
+                    <label for="female">Female</label>
+                </td>
+            </tr>
+            <tr>
+                <td> <label for="Phone">Phone number:</label></td>
+                <td> <input type="text" id="phone" name="phone"  >
+                <div id="phoneError" style="color:red;"></div></td>
+            </tr>
+            <tr>
+                <td> <label for="address">Address:</label></td>
+                <td> <textarea id="address"></textarea>
+                <div id="addressError" style="color:red;"></div></td>
+            </tr>
+            <tr>
+                <td> <label for="course">Course:</label></td>
+                <td>
+                    <select name="course" id="course">
+                        <option value="select">Select Course</option>
+                        <option value="HTML"> HTML</option>
+                        <option value="CSS">CSS</option>
+                        <option value="JavaScript">JavaScript</option>
+                        <option value="Angular">Angular</option>
+                    </select>                   
+                </td>
+            </tr>
+            <tr>
+                <td> <label for="language">Known Languages:</label></td>
+                <td>
+                    <input type="checkbox" name="language" value="tamil">
+                    <label for="language">Tamil</label>
+                    <input type="checkbox" name="language" value="english">
+                    <label for="language">English</label>
+                    <input type="checkbox" name="language" value="hindi">
+                    <label for="language">Hindi</label>
+                    <input type="checkbox" name="language" value="Malayalam" >
+                    <label for="language">Malayalam</label>            
+                </td>
+            </tr>
+        </table>
+    </form>
+            <div id="btn">     
+        <input type="submit" id="submit" name="submit" value="Submit">                  
+        </div>           
+</div>
+<script src="js.js"></script>
+  
+</body>
+
+</html>

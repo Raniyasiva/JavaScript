@@ -1,0 +1,130 @@
+/* .comment-modal {
+  
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    
+} */
+
+.container {
+    margin: auto;
+    margin-top: 20px;
+    
+    padding: 20px;
+    background-color: #e6e3e3;
+    border-radius: 5px;
+    max-width: 500px;
+    font-family: sans-serif;
+}
+#text{
+    margin-top: 20px;
+    border: 1px solid #0259b0 ;
+    margin-left: 43%;
+    border-radius: 10px;
+   resize: none;
+}
+#send{
+    background-color: #0259b0;
+    border: 1px solid #022766;
+    padding: 5px 20px;
+    border-radius: 10px;
+    margin-left:47%;
+    margin-top: 10px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+#text:hover{
+    box-shadow:0px 0px 2px 2px #0259b0 ; 
+}
+.comment{
+    display: none;
+}
+.time{
+    display: flex;
+}
+.comment-timestamp{
+    margin-right: 20px;
+}
+.comment-content {
+    display: flex;
+}
+
+.pic {
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 0px;
+}
+
+.pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.comment-name {
+    font-weight: bold;
+    
+}
+
+.comment-text {
+    font-size: 14px;
+    line-height: 1;
+    color: #555;
+}
+.newComment{
+    border: none;
+    font-weight: 100;
+}
+.comment-timestamp{
+    font-size: 12px;
+}
+.comment-details{
+    background-color: #fffdfd;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 10px;
+    width: 383px;
+    border-radius: 10px;
+}
+.comment-more{
+    font-size: 12px;
+    font-weight: bold;
+}
+.comment-actions {
+    display: flex;  
+    margin-left: 64px;
+}
+
+.comment-reply{
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.comment-like,
+.comment-reply 
+{
+    cursor: pointer;
+    color: #080707;
+    font-size: 12px;
+}
+
+.comment-like:hover,
+.comment-reply:hover 
+{
+    color: #000;
+    text-decoration: underline;
+}
+
+.comment-form 
+{
+    margin-top: 20px;
+}
+
+

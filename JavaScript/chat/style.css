@@ -1,0 +1,29 @@
+#send {
+    background-color: #045346;
+    margin: 10px;
+    margin-left: 3%;
+    color: #fff;
+    border-radius: 30px;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#whatsapp {
+    border: 5px solid #046e50;
+    max-width: max-content;
+    padding: 20px;
+    background-color: #cdf7e9;
+    border-radius: 5px;
+ text-align: center;
+}
+
+.new {
+    border: 1px solid #000;
+    width: max-content;
+    padding: 3px 10px;
+    margin-bottom: 5px;
+ 
+
+    background-color: #e7e1da;
+}

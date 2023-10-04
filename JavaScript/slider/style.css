@@ -1,0 +1,43 @@
+.container{
+    width: 1200px;
+    margin:auto;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    color: rgb(10, 112, 116);
+    text-transform: uppercase;  
+}
+.slider{
+    margin: auto;;
+    width: 550px;
+    height:309px;
+    position: relative;
+    border: 25px solid ;
+    border-radius: 10px;
+}
+.slider img{
+   width: 100%;
+}
+ .prev{
+    position: absolute;
+    top: 50%;
+    left:-26px;
+    background-color: #eaeaf6;
+    border-radius: 50%;
+    padding: 4px 10px;
+    cursor: pointer;
+}
+.next{
+    position: absolute;
+    top: 50%;
+    right: -26px;
+    background-color: #eaeaf6;
+    border-radius: 50%;
+    padding: 4px 10px;
+    cursor: pointer;
+} 

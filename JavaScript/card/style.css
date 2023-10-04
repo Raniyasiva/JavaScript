@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.three-rows{
+    background-color: antiquewhite;
+    padding: 30px;
+}
+
+.client{
+    margin:0 20px;
+    width: 50%;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 15px 100px;
+    background-color: #d6b8f1;
+}
+.client img{
+width: 100px;
+border-radius: 50%;
+}
+.card{
+    margin: 0 20px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 50%;
+    text-align: center;
+    background-color: #fff;
+}
+.card strong{
+    color: #810794;
+    font-size: 20px;
+    display: inline-block; 
+    padding-bottom: 15px;
+}
+
+.card p{
+    padding-top: 15px;
+    text-align: left;
+}
